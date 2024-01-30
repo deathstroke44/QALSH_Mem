@@ -17,7 +17,7 @@ dtype=float32
 dname=sift
 pf=../data/${dname}/${dname}
 df=../data/${dname}/
-log=sift1+
+log=sift1
 
 # ------------------------------------------------------------------------------
 #  Running Scripts
