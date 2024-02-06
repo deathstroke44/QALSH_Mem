@@ -49,6 +49,12 @@ float calc_ratio(                   // calc overall ratio [1,\infinity)
     MinK_List *list);                   // top-k approximate results
 
 // -----------------------------------------------------------------------------
+float calc_map(                  // calc map (percentage)
+    int   k,                            // top-k value
+    const Result *truth,                // ground truth results 
+    MinK_List *list);                   // results returned by algorithms
+
+// -----------------------------------------------------------------------------
 float calc_recall(                  // calc recall (percentage)
     int   k,                            // top-k value
     const Result *truth,                // ground truth results 
