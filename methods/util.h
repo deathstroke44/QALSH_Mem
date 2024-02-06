@@ -107,8 +107,8 @@ int read_data(                      // read data (binary) from disk
 {
     char fname[200]; 
     switch (sign) {
-        case 0: sprintf(fname, "%s.fvecs", "base"); break;
-        case 1: sprintf(fname, "%s.fvecs", "query"); break;
+        case 0: sprintf(fname, "%s/base.fvecs", prefix); break;
+        case 1: sprintf(fname, "%s/query.fvecs", prefix); break;
         case 2: sprintf(fname, "%s.gt%3.1f", prefix, p); break;
         default: printf("Parameters error!\n"); return 1;
     }

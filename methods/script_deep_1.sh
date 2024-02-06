@@ -1,6 +1,4 @@
 #!/bin/bash
-make clean
-make -j
 
 # ------------------------------------------------------------------------------
 #  Parameters ('dtype' has 4 options: uint8, uint16, int32, float32)
@@ -15,8 +13,8 @@ L=30
 M=7
 dtype=float32
 dname=deep
-pf=../data/${dname}/${dname}
-df=../data/${dname}/
+pf=/data/kabir/similarity-search/dataset${dname}
+df=/data/kabir/similarity-search/dataset${dname}/
 log=deep1
 
 # ------------------------------------------------------------------------------
