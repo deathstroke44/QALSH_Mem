@@ -80,8 +80,8 @@ void readFVecsFromExternal(char* filepath, DType *data, int N, int maxRow=-1) {
       std::cout << "N and actual dimension mismatch" << std::endl;
       return;
     }
-    std::vector<float> v(dimen);
-    if(fread(v.data(), sizeof(float), dimen, infile) == 0) {
+    std::vector<DType> v(dimen);
+    if(fread(v.data(), sizeof(DType), dimen, infile) == 0) {
       std::cout << "Error when reading" << std::endl;
     };
     
