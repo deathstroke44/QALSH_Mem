@@ -71,12 +71,14 @@ int linear_scan(                    // k-NN search by linear scan
         MinK_List *list = new MinK_List(top_k);
         g_ratio  = 0.0f;
         g_recall = 0.0f;
+        double g_map = 0.0f;
 
         for (int i = 0; i < qn; ++i) {
             kNN_search(n, d, top_k, p, data, &query[(uint64_t)i*d], list);
 
             g_ratio  += calc_ratio(top_k,  &truth[(uint64_t)i*MAXK], list);
             g_recall += calc_recall(top_k, &truth[(uint64_t)i*MAXK], list);
+            g_map += calc_map(top_k, &truth[(uint64_t)i*MAXK], list);
         }
         delete list;
         gettimeofday(&g_end_time, NULL);
@@ -85,6 +87,7 @@ int linear_scan(                    // k-NN search by linear scan
 
         g_ratio   = g_ratio / qn;
         g_recall  = g_recall / qn;
+        g_map  = g_map / qn;
         g_runtime = (g_runtime * 1000.0f) / qn;
 
         printf("%d\t\t%.4f\t\t%.3f\t\t%.2f\n", top_k, g_ratio, g_runtime, 
@@ -148,12 +151,14 @@ int qalsh_plus(                     // k-NN search by qalsh+
             MinK_List *list = new MinK_List(top_k);
             g_ratio  = 0.0f;
             g_recall = 0.0f;
+            float g_map = 0.0f;
 
             for (int i = 0; i < qn; ++i) {
                 lsh->knn(top_k, nb, &query[(uint64_t)i*d], list);
                 
                 g_ratio  += calc_ratio(top_k,  &truth[(uint64_t)i*MAXK], list);
                 g_recall += calc_recall(top_k, &truth[(uint64_t)i*MAXK], list);
+                g_map += calc_map(top_k, &truth[(uint64_t)i*MAXK], list);
             }
             delete list;
             gettimeofday(&g_end_time, NULL);
@@ -163,6 +168,7 @@ int qalsh_plus(                     // k-NN search by qalsh+
             g_ratio   = g_ratio / qn;
             g_recall  = g_recall / qn;
             g_runtime = (g_runtime * 1000.0f) / qn;
+            g_map  = g_map / qn;
 
             printf("%d\t\t%.4f\t\t%.3f\t\t%.2f\n", top_k, g_ratio, g_runtime, 
                 g_recall);
@@ -217,12 +223,14 @@ int qalsh(                          // k-NN search by qalsh
         MinK_List *list = new MinK_List(top_k);
         g_ratio  = 0.0f;
         g_recall = 0.0f;
+        float g_map = 0.0f;
 
         for (int i = 0; i < qn; ++i) {
             lsh->knn(top_k, &query[(uint64_t)i*d], list);
             
             g_ratio  += calc_ratio(top_k,  &truth[(uint64_t)i*MAXK], list);
             g_recall += calc_recall(top_k, &truth[(uint64_t)i*MAXK], list);
+            g_map += calc_map(top_k, &truth[(uint64_t)i*MAXK], list);
         }
         delete list;
         gettimeofday(&g_end_time, NULL);
@@ -232,6 +240,7 @@ int qalsh(                          // k-NN search by qalsh
         g_ratio   = g_ratio / qn;
         g_recall  = g_recall / qn;
         g_runtime = (g_runtime * 1000.0f) / qn;
+        g_map  = g_map / qn;
 
         printf("%d\t\t%.4f\t\t%.3f\t\t%.2f\n", top_k, g_ratio, g_runtime, 
             g_recall);
