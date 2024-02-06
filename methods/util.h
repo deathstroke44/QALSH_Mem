@@ -127,7 +127,7 @@ int read_data(                      // read data (binary) from disk
         fclose(fp);
     }
     else {
-        readFVecsFromExternal<DType>(fname, data, d, n)
+        readFVecsFromExternal<DType>(fname, data, d, n);
     }
     
     return 0;
