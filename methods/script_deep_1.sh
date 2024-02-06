@@ -13,8 +13,8 @@ L=30
 M=7
 dtype=float32
 dname=deep
-pf=/data/kabir/similarity-search/dataset${dname}
-df=/data/kabir/similarity-search/dataset${dname}/
+pf=/data/kabir/similarity-search/dataset/${dname}
+df=/data/kabir/similarity-search/dataset/${dname}/
 log=deep1
 
 # ------------------------------------------------------------------------------
