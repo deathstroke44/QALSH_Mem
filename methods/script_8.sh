@@ -4,14 +4,15 @@
 #  Parameters ('dtype' has 4 options: uint8, uint16, int32, float32)
 # ------------------------------------------------------------------------------
 
-B=4096
-c=2.0
+B=1024
+c=2
 leaf=20000
 L=30
 M=7
 dtype=float32
 p=2.0
 z=0.0
+log=log8
 
 dname=audio
 n=53387
@@ -19,13 +20,13 @@ qn=200
 d=192
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -36,13 +37,13 @@ qn=200
 d=150
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -53,13 +54,13 @@ qn=200
 d=128
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -70,13 +71,13 @@ qn=200
 d=128
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -87,13 +88,13 @@ qn=200
 d=512
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -104,13 +105,13 @@ qn=200
 d=1369
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -121,13 +122,13 @@ qn=200
 d=420
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -138,13 +139,13 @@ qn=200
 d=784
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -155,13 +156,13 @@ qn=200
 d=500
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -172,13 +173,13 @@ qn=200
 d=512
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -189,13 +190,13 @@ qn=200
 d=256
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
@@ -206,13 +207,13 @@ qn=200
 d=4096
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
-log=log1
+
 
 
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
 ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
