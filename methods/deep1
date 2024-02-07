@@ -1,0 +1,30 @@
+alg    = 2
+n      = 1000000
+qn     = 200
+d      = 256
+p      = 2.0
+zeta   = 0.0
+c      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/deep
+folder = ../results/deep/c=2.0_p=2.0/
+
+Load data and query: 0.429587 Seconds
+
+Parameters of QALSH:
+n     = 1000000
+d     = 256
+p     = 2.0
+zeta  = 0.0
+c     = 2.0
+w     = 2.719112
+m     = 83
+l     = 63
+
+Indexing Time = 28.043459 Seconds
+Estimated Mem = 633.320862 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0321		89.280		44.424999		0.308860
+

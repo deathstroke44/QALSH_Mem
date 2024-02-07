@@ -1,0 +1,30 @@
+alg    = 2
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+zeta   = 0.0
+c      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+folder = ../results/cifar/c=2.0_p=2.0/
+
+Load data and query: 0.043456 Seconds
+
+Parameters of QALSH:
+n     = 50000
+d     = 512
+p     = 2.0
+zeta  = 0.0
+c     = 2.0
+w     = 2.719112
+m     = 64
+l     = 48
+
+Indexing Time = 1.827187 Seconds
+Estimated Mem = 24.539124 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0315		2.142		46.724998		0.331016
+

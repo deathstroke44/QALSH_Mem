@@ -1,0 +1,360 @@
+alg    = 2
+n      = 53387
+qn     = 200
+d      = 192
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/audio
+folder = ../results/audio/c=1.5_p=2.0/
+
+Load data and query: 0.017651 Seconds
+
+Parameters of QALSH:
+n     = 53387
+d     = 192
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 177
+l     = 128
+
+Indexing Time = 2.094613 Seconds
+Estimated Mem = 72.223656 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0027		5.665		92.324997		0.904351
+
+alg    = 2
+n      = 2340373
+qn     = 200
+d      = 150
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/imageNet
+folder = ../results/imageNet/c=1.5_p=2.0/
+
+Load data and query: 0.610041 Seconds
+
+Parameters of QALSH:
+n     = 2340373
+d     = 150
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 245
+l     = 179
+
+Indexing Time = 136.067459 Seconds
+Estimated Mem = 4374.769531 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0067		575.457		75.275002		0.678805
+
+alg    = 2
+n      = 332668
+qn     = 200
+d      = 128
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/notre
+folder = ../results/notre/c=1.5_p=2.0/
+
+Load data and query: 0.091773 Seconds
+
+Parameters of QALSH:
+n     = 332668
+d     = 128
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 210
+l     = 153
+
+Indexing Time = 13.767183 Seconds
+Estimated Mem = 533.094238 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		inf		64.821		0.000000		0.000000
+
+alg    = 2
+n      = 1097907
+qn     = 200
+d      = 128
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/ukbench
+folder = ../results/ukbench/c=1.5_p=2.0/
+
+Load data and query: 0.279221 Seconds
+
+Parameters of QALSH:
+n     = 1097907
+d     = 128
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 231
+l     = 168
+
+Indexing Time = 52.056427 Seconds
+Estimated Mem = 1935.053345 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0035		231.272		89.800003		0.872076
+
+alg    = 2
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+folder = ../results/cifar/c=1.5_p=2.0/
+
+Load data and query: 0.045178 Seconds
+
+Parameters of QALSH:
+n     = 50000
+d     = 512
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 176
+l     = 127
+
+Indexing Time = 4.301573 Seconds
+Estimated Mem = 67.482483 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0068		6.676		76.724998		0.688813
+
+alg    = 2
+n      = 94987
+qn     = 200
+d      = 1369
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/enron
+folder = ../results/enron/c=1.5_p=2.0/
+
+Load data and query: 0.229194 Seconds
+
+Parameters of QALSH:
+n     = 94987
+d     = 1369
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 188
+l     = 136
+
+Indexing Time = 21.490685 Seconds
+Estimated Mem = 137.224197 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0086		12.369		73.050003		0.649246
+
+alg    = 2
+n      = 992272
+qn     = 200
+d      = 420
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/millionSong
+folder = ../results/millionSong/c=1.5_p=2.0/
+
+Load data and query: 0.671017 Seconds
+
+Parameters of QALSH:
+n     = 992272
+d     = 420
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 230
+l     = 168
+
+Indexing Time = 102.220093 Seconds
+Estimated Mem = 1741.568481 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0053		155.535		82.800003		0.772113
+
+alg    = 2
+n      = 69000
+qn     = 200
+d      = 784
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/MNIST
+folder = ../results/MNIST/c=1.5_p=2.0/
+
+Load data and query: 0.097988 Seconds
+
+Parameters of QALSH:
+n     = 69000
+d     = 784
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 182
+l     = 132
+
+Indexing Time = 8.970038 Seconds
+Estimated Mem = 96.354309 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0027		8.927		92.599998		0.904174
+
+alg    = 2
+n      = 268643
+qn     = 200
+d      = 500
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/nuswide
+folder = ../results/nuswide/c=1.5_p=2.0/
+
+Load data and query: 0.218246 Seconds
+
+Parameters of QALSH:
+n     = 268643
+d     = 500
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 206
+l     = 150
+
+Indexing Time = 27.892904 Seconds
+Estimated Mem = 422.607178 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0202		57.929		36.000000		0.237154
+
+alg    = 2
+n      = 79106
+qn     = 200
+d      = 512
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sun
+folder = ../results/sun/c=1.5_p=2.0/
+
+Load data and query: 0.064963 Seconds
+
+Parameters of QALSH:
+n     = 79106
+d     = 512
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 184
+l     = 133
+
+Indexing Time = 7.170581 Seconds
+Estimated Mem = 111.409119 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0089		11.842		72.574997		0.630822
+
+alg    = 2
+n      = 1000000
+qn     = 200
+d      = 256
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/deep
+folder = ../results/deep/c=1.5_p=2.0/
+
+Load data and query: 0.434296 Seconds
+
+Parameters of QALSH:
+n     = 1000000
+d     = 256
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 230
+l     = 168
+
+Indexing Time = 70.673660 Seconds
+Estimated Mem = 1754.985352 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0058		228.004		77.699997		0.704178
+
+alg    = 2
+n      = 99900
+qn     = 200
+d      = 4096
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/trevi
+folder = ../results/trevi/c=1.5_p=2.0/
+
+Load data and query: 0.617425 Seconds
+
+Parameters of QALSH:
+n     = 99900
+d     = 4096
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 189
+l     = 137
+
+Indexing Time = 66.702599 Seconds
+Estimated Mem = 147.004547 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0059		15.479		79.324997		0.742250
+

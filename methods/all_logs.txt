@@ -1,0 +1,232 @@
+alg    = 0
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/datasetcifar
+
+File not found
+File not found
+Load data and query: 0.000071 Seconds
+
+Ground Truth: 2.436185 Seconds
+
+alg    = 0
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+
+Load data and query: 0.191013 Seconds
+
+Ground Truth: 2.110281 Seconds
+
+alg    = 0
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+
+Load data and query: 0.042499 Seconds
+
+Ground Truth: 2.132882 Seconds
+
+alg    = 0
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+
+Load data and query: 0.045650 Seconds
+
+Ground Truth: 2.135697 Seconds
+
+alg    = 0
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+
+Load data and query: 0.043141 Seconds
+
+Ground Truth: 2.128296 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/deep
+
+Load data and query: 2.171291 Seconds
+
+Ground Truth: 18.408293 Seconds
+
+alg    = 0
+n      = 94987
+qn     = 200
+d      = 1369
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/enron
+
+Load data and query: 1.309914 Seconds
+
+Ground Truth: 5.370474 Seconds
+
+alg    = 0
+n      = 53387
+qn     = 200
+d      = 192
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/audio
+
+Load data and query: 0.018535 Seconds
+
+Ground Truth: 0.555202 Seconds
+
+alg    = 0
+n      = 2340373
+qn     = 200
+d      = 150
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/imageNet
+
+Load data and query: 0.608254 Seconds
+
+Ground Truth: 21.360411 Seconds
+
+alg    = 0
+n      = 332668
+qn     = 200
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/notre
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000537 Seconds
+
+Ground Truth: 5.540218 Seconds
+
+alg    = 0
+n      = 1097907
+qn     = 200
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/ukbench
+
+Load data and query: 0.259779 Seconds
+
+Ground Truth: 8.618735 Seconds
+
+alg    = 0
+n      = 50000
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/cifar
+
+Load data and query: 0.046739 Seconds
+
+Ground Truth: 1.889232 Seconds
+
+alg    = 0
+n      = 94987
+qn     = 200
+d      = 1369
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/enron
+
+Load data and query: 0.216467 Seconds
+
+Ground Truth: 4.968657 Seconds
+
+alg    = 0
+n      = 992272
+qn     = 200
+d      = 420
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/millionSong
+
+Load data and query: 0.657529 Seconds
+
+Ground Truth: 23.261965 Seconds
+
+alg    = 0
+n      = 69000
+qn     = 200
+d      = 784
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/MNIST
+
+Load data and query: 0.099944 Seconds
+
+Ground Truth: 3.829680 Seconds
+
+alg    = 0
+n      = 268643
+qn     = 200
+d      = 500
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/nuswide
+
+Load data and query: 0.206462 Seconds
+
+Ground Truth: 10.387866 Seconds
+
+alg    = 0
+n      = 79106
+qn     = 200
+d      = 512
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sun
+
+Load data and query: 0.067313 Seconds
+
+Ground Truth: 3.047206 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/deep
+
+Load data and query: 0.411867 Seconds
+
+Ground Truth: 17.664701 Seconds
+
+alg    = 0
+n      = 99900
+qn     = 200
+d      = 4096
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/trevi
+
+Load data and query: 0.574908 Seconds
+
+Ground Truth: 13.685716 Seconds
+
