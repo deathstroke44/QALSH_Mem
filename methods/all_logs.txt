@@ -230,3 +230,1467 @@ Load data and query: 0.574908 Seconds
 
 Ground Truth: 13.685716 Seconds
 
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.650902 Seconds
+
+Ground Truth: 582.032593 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.185437 Seconds
+
+Ground Truth: 7.295581 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 1.010408 Seconds
+
+Ground Truth: 9.632367 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.575735 Seconds
+
+Ground Truth: 10.108051 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.250084 Seconds
+
+Ground Truth: 3.280755 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000078 Seconds
+
+Ground Truth: 5.506122 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.329912 Seconds
+
+Ground Truth: 4.430099 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.621641 Seconds
+
+Ground Truth: 6.316712 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 3.093502 Seconds
+
+Ground Truth: 325.694580 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.414910 Seconds
+
+Ground Truth: 397.372803 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.587245 Seconds
+
+Ground Truth: 599.217407 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.215066 Seconds
+
+Ground Truth: 7.244786 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 1.051991 Seconds
+
+Ground Truth: 9.777522 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.814389 Seconds
+
+Ground Truth: 10.501272 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.255544 Seconds
+
+Ground Truth: 3.360637 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000073 Seconds
+
+Ground Truth: 5.581479 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.332049 Seconds
+
+Ground Truth: 4.538494 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.608275 Seconds
+
+Ground Truth: 6.412007 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 3.073759 Seconds
+
+Ground Truth: 308.770172 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.515622 Seconds
+
+Ground Truth: 393.690582 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.596938 Seconds
+
+Ground Truth: 590.373779 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.206333 Seconds
+
+Ground Truth: 7.214492 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.726560 Seconds
+
+Ground Truth: 11.528219 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.796970 Seconds
+
+Ground Truth: 10.081315 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.232564 Seconds
+
+Ground Truth: 3.065065 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000110 Seconds
+
+Ground Truth: 5.501757 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.307487 Seconds
+
+Ground Truth: 4.319697 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.441678 Seconds
+
+Ground Truth: 5.977776 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 2.950856 Seconds
+
+Ground Truth: 295.906891 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.393817 Seconds
+
+Ground Truth: 388.850555 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.861082 Seconds
+
+Ground Truth: 577.741882 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.178315 Seconds
+
+Ground Truth: 6.948011 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.991978 Seconds
+
+Ground Truth: 9.401538 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.742435 Seconds
+
+Ground Truth: 9.809196 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.228724 Seconds
+
+Ground Truth: 2.958804 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000061 Seconds
+
+Ground Truth: 5.509869 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.308248 Seconds
+
+Ground Truth: 4.446464 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.578806 Seconds
+
+Ground Truth: 6.068096 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 2.446855 Seconds
+
+Ground Truth: 306.875549 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.320955 Seconds
+
+Ground Truth: 389.413300 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.870929 Seconds
+
+Ground Truth: 579.217896 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.177341 Seconds
+
+Ground Truth: 6.993590 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.988993 Seconds
+
+Ground Truth: 9.530433 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.746098 Seconds
+
+Ground Truth: 10.094197 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.225909 Seconds
+
+Ground Truth: 2.997851 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000259 Seconds
+
+Ground Truth: 5.512448 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.307201 Seconds
+
+Ground Truth: 4.463454 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.577525 Seconds
+
+Ground Truth: 6.016885 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 2.975457 Seconds
+
+Ground Truth: 310.567535 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.489182 Seconds
+
+Ground Truth: 394.017914 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.432539 Seconds
+
+Ground Truth: 573.523682 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.210251 Seconds
+
+Ground Truth: 7.208182 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.457903 Seconds
+
+Ground Truth: 10.269867 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.406082 Seconds
+
+Ground Truth: 10.635212 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.300567 Seconds
+
+Ground Truth: 3.732114 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000087 Seconds
+
+Ground Truth: 5.650825 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.199884 Seconds
+
+Ground Truth: 4.680864 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.333894 Seconds
+
+Ground Truth: 6.890516 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 1.680771 Seconds
+
+Ground Truth: 353.425110 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.274355 Seconds
+
+Ground Truth: 482.541382 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.510524 Seconds
+
+Ground Truth: 601.661316 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.251898 Seconds
+
+Ground Truth: 7.170580 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.478393 Seconds
+
+Ground Truth: 9.768363 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 2.995892 Seconds
+
+Ground Truth: 10.232319 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.305204 Seconds
+
+Ground Truth: 3.051562 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000056 Seconds
+
+Ground Truth: 5.596884 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 1.020062 Seconds
+
+Ground Truth: 4.473792 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.934774 Seconds
+
+Ground Truth: 6.166417 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 1.755967 Seconds
+
+Ground Truth: 316.413239 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.281243 Seconds
+
+Ground Truth: 403.183533 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 4.093502 Seconds
+
+Ground Truth: 660.976318 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.292723 Seconds
+
+Ground Truth: 7.374326 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.454728 Seconds
+
+Ground Truth: 10.125157 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 1.600956 Seconds
+
+Ground Truth: 10.573297 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.283724 Seconds
+
+Ground Truth: 3.218702 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.001228 Seconds
+
+Ground Truth: 5.832726 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.501278 Seconds
+
+Ground Truth: 4.716053 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.406206 Seconds
+
+Ground Truth: 6.536534 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 1.639472 Seconds
+
+Ground Truth: 320.816681 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.244125 Seconds
+
+Ground Truth: 430.500366 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.430918 Seconds
+
+Ground Truth: 671.422546 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.282550 Seconds
+
+Ground Truth: 7.397773 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.441150 Seconds
+
+Ground Truth: 10.014911 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.424069 Seconds
+
+Ground Truth: 10.766050 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.393260 Seconds
+
+Ground Truth: 3.158406 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000049 Seconds
+
+Ground Truth: 5.860323 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.190362 Seconds
+
+Ground Truth: 4.641182 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.378442 Seconds
+
+Ground Truth: 6.621232 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 1.710318 Seconds
+
+Ground Truth: 321.435608 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.243280 Seconds
+
+Ground Truth: 423.969147 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.429886 Seconds
+
+Ground Truth: 660.763916 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.339056 Seconds
+
+Ground Truth: 7.666396 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.507221 Seconds
+
+Ground Truth: 11.629432 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.441027 Seconds
+
+Ground Truth: 10.973946 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.286879 Seconds
+
+Ground Truth: 3.315142 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000068 Seconds
+
+Ground Truth: 5.813000 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.196876 Seconds
+
+Ground Truth: 4.993832 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.368480 Seconds
+
+Ground Truth: 6.530491 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 1.668637 Seconds
+
+Ground Truth: 328.046082 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.257455 Seconds
+
+Ground Truth: 425.016541 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.420650 Seconds
+
+Ground Truth: 663.955383 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.240830 Seconds
+
+Ground Truth: 8.983673 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.499870 Seconds
+
+Ground Truth: 12.289841 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.465383 Seconds
+
+Ground Truth: 12.541058 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.351537 Seconds
+
+Ground Truth: 4.589759 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000107 Seconds
+
+Ground Truth: 6.589155 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.229805 Seconds
+
+Ground Truth: 5.921310 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.445879 Seconds
+
+Ground Truth: 8.562339 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 2.297238 Seconds
+
+Ground Truth: 348.708282 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.357229 Seconds
+
+Ground Truth: 488.860321 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/uqv
+
+Load data and query: 0.576986 Seconds
+
+Ground Truth: 686.731384 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 200
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/random
+
+Load data and query: 0.258732 Seconds
+
+Ground Truth: 8.253523 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+Load data and query: 0.676824 Seconds
+
+Ground Truth: 10.660439 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 256
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/seismic1m
+
+Load data and query: 0.553419 Seconds
+
+Ground Truth: 11.040986 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sald1m
+
+Load data and query: 0.398004 Seconds
+
+Ground Truth: 3.931852 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/astro1m
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.001089 Seconds
+
+Ground Truth: 5.666988 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 100
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/space1V
+
+Load data and query: 0.226798 Seconds
+
+Ground Truth: 5.371788 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 100
+d      = 200
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/text-to-image
+
+Load data and query: 0.620890 Seconds
+
+Ground Truth: 6.797185 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 1000
+d      = 960
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/gist
+
+Load data and query: 2.943524 Seconds
+
+Ground Truth: 323.359863 Seconds
+
+alg    = 0
+n      = 1000000
+qn     = 10000
+d      = 128
+p      = 2.0
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/sift
+
+Load data and query: 0.299133 Seconds
+
+Ground Truth: 434.875244 Seconds
+
