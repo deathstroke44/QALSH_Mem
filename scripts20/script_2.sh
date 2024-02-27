@@ -4,6 +4,8 @@
 #  Parameters ('dtype' has 4 options: uint8, uint16, int32, float32)
 # ------------------------------------------------------------------------------
 
+cd ../methods/
+
 B=4096
 c=1.75
 dtype=float32
