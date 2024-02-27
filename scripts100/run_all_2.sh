@@ -1,0 +1,10 @@
+bash script_1.sh
+bash script_2.sh
+bash script_3.sh
+bash script_4.sh
+bash script_5.sh
+bash script_6.sh
+bash script_7.sh
+bash script_8.sh
+bash script_9.sh
+bash script_10.sh
