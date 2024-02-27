@@ -35,21 +35,21 @@ of=../results/${dname}/c=${c}_p=${p}/
 
 
 
-dname=glove
-n=1192514
-qn=200
-d=100
-pf=/data/kabir/similarity-search/dataset/${dname}
-df=/data/kabir/similarity-search/dataset/${dname}/
+# dname=glove
+# n=1192514
+# qn=200
+# d=100
+# pf=/data/kabir/similarity-search/dataset/${dname}
+# df=/data/kabir/similarity-search/dataset/${dname}/
 
 
 
-of=../results/${dname}/c=${c}_p=${p}/
+# of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+# ./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
-./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
--dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
+# ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
+# -dt ${dtype} -pf ${pf} -of ${of} -dname ${log}
 
 
 
