@@ -1,0 +1,90 @@
+alg    = 2
+n      = 1989995
+qn     = 10000
+d      = 300
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/crawl
+folder = ../results/crawl/c=1.25_p=2.0/
+
+Load data and query: 1.060306 Seconds
+
+Parameters of QALSH:
+n     = 1989995
+d     = 300
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 785
+l     = 557
+
+Indexing Time = 558.389893 Seconds
+Estimated Mem = 11919.126953 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0039		2122.873		80.076302		0.757261
+
+alg    = 2
+n      = 5000000
+qn     = 1000
+d      = 384
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/tiny5m
+folder = ../results/tiny5m/c=1.25_p=2.0/
+
+Load data and query: 3.286808 Seconds
+
+Parameters of QALSH:
+n     = 5000000
+d     = 384
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 836
+l     = 594
+
+Indexing Time = 1788.967285 Seconds
+Estimated Mem = 31892.093750 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		-nan		10794.939		63.132999		0.548949
+
+alg    = 2
+n      = 1000000
+qn     = 1000
+d      = 300
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/word2vec
+folder = ../results/word2vec/c=1.25_p=2.0/
+
+Load data and query: 0.531126 Seconds
+
+Parameters of QALSH:
+n     = 1000000
+d     = 300
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 745
+l     = 528
+
+Indexing Time = 258.252319 Seconds
+Estimated Mem = 5684.751465 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0059		834.516		65.629997		0.576921
+
