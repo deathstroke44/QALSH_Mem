@@ -1,0 +1,212 @@
+alg    = 2
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/bigann
+folder = ../results/bigann/c=1.5_p=2.0/
+
+Load data and query: 0.279256 Seconds
+
+Parameters of QALSH:
+n     = 1000000
+d     = 128
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 230
+l     = 168
+
+Indexing Time = 45.633610 Seconds
+Estimated Mem = 1754.873047 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0094		207.790		75.279999		0.695580
+
+alg    = 2
+n      = 292385
+qn     = 100
+d      = 65
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/lastfm
+folder = ../results/lastfm/c=1.5_p=2.0/
+
+Load data and query: 0.042950 Seconds
+
+Parameters of QALSH:
+n     = 292385
+d     = 65
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 208
+l     = 151
+
+Indexing Time = 9.168054 Seconds
+Estimated Mem = 464.041504 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0031		77.039		14.540000		0.067765
+
+alg    = 2
+n      = 10677
+qn     = 1000
+d      = 150
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/lastfm
+folder = ../results/lastfm/c=1.5_p=2.0/
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.000531 Seconds
+
+Parameters of QALSH:
+n     = 10677
+d     = 150
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 147
+l     = 106
+
+Indexing Time = 0.174690 Seconds
+Estimated Mem = 12.058655 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		-nan		0.171		100.000000		1.000000
+
+alg    = 2
+n      = 10677
+qn     = 1000
+d      = 150
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/movielens
+folder = ../results/movielens/c=1.5_p=2.0/
+
+Load data and query: 0.004681 Seconds
+
+Parameters of QALSH:
+n     = 10677
+d     = 150
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 147
+l     = 106
+
+Indexing Time = 0.270366 Seconds
+Estimated Mem = 12.058655 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0054		1.064		85.989998		0.826947
+
+alg    = 2
+n      = 17770
+qn     = 1000
+d      = 300
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/netflix
+folder = ../results/netflix/c=1.5_p=2.0/
+
+Load data and query: 0.010484 Seconds
+
+Parameters of QALSH:
+n     = 17770
+d     = 300
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 157
+l     = 113
+
+Indexing Time = 0.846790 Seconds
+Estimated Mem = 21.464905 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0035		1.707		90.072998		0.877266
+
+alg    = 2
+n      = 290000
+qn     = 100
+d      = 256
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/nytimes
+folder = ../results/nytimes/c=1.5_p=2.0/
+
+Load data and query: 0.132054 Seconds
+
+Parameters of QALSH:
+n     = 290000
+d     = 256
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 208
+l     = 151
+
+Indexing Time = 17.592976 Seconds
+Estimated Mem = 460.408264 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		-nan		64.316		98.510002		0.460584
+
+alg    = 2
+n      = 136736
+qn     = 100
+d      = 300
+p      = 2.0
+zeta   = 0.0
+c      = 1.5
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/yahoomusic
+folder = ../results/yahoomusic/c=1.5_p=2.0/
+
+Load data and query: 0.073956 Seconds
+
+Parameters of QALSH:
+n     = 136736
+d     = 300
+p     = 2.0
+zeta  = 0.0
+c     = 1.5
+w     = 2.416340
+m     = 194
+l     = 141
+
+Indexing Time = 8.577016 Seconds
+Estimated Mem = 202.605377 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0096		21.789		75.809998		0.696611
+

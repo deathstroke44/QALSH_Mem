@@ -1,0 +1,212 @@
+alg    = 2
+n      = 1000000
+qn     = 100
+d      = 128
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/bigann
+folder = ../results/bigann/c=1.25_p=2.0/
+
+Load data and query: 0.267068 Seconds
+
+Parameters of QALSH:
+n     = 1000000
+d     = 128
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 745
+l     = 528
+
+Indexing Time = 148.048065 Seconds
+Estimated Mem = 5684.262695 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0017		732.696		91.360001		0.895641
+
+alg    = 2
+n      = 292385
+qn     = 100
+d      = 65
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/lastfm
+folder = ../results/lastfm/c=1.25_p=2.0/
+
+Load data and query: 0.047797 Seconds
+
+Parameters of QALSH:
+n     = 292385
+d     = 65
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 675
+l     = 478
+
+Indexing Time = 29.782940 Seconds
+Estimated Mem = 1505.903809 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0032		263.199		16.650000		0.097672
+
+alg    = 2
+n      = 10677
+qn     = 1000
+d      = 150
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/lastfm
+folder = ../results/lastfm/c=1.25_p=2.0/
+
+N and actual dimension mismatch
+N and actual dimension mismatch
+Load data and query: 0.001552 Seconds
+
+Parameters of QALSH:
+n     = 10677
+d     = 150
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 477
+l     = 335
+
+Indexing Time = 0.565941 Seconds
+Estimated Mem = 39.128967 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		-nan		0.296		100.000000		1.000000
+
+alg    = 2
+n      = 10677
+qn     = 1000
+d      = 150
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/movielens
+folder = ../results/movielens/c=1.25_p=2.0/
+
+Load data and query: 0.003983 Seconds
+
+Parameters of QALSH:
+n     = 10677
+d     = 150
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 477
+l     = 335
+
+Indexing Time = 0.873966 Seconds
+Estimated Mem = 39.128967 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0004		3.449		97.372002		0.969292
+
+alg    = 2
+n      = 17770
+qn     = 1000
+d      = 300
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/netflix
+folder = ../results/netflix/c=1.25_p=2.0/
+
+Load data and query: 0.012985 Seconds
+
+Parameters of QALSH:
+n     = 17770
+d     = 300
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 508
+l     = 358
+
+Indexing Time = 2.739097 Seconds
+Estimated Mem = 69.453186 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0003		5.706		98.125000		0.978004
+
+alg    = 2
+n      = 290000
+qn     = 100
+d      = 256
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/nytimes
+folder = ../results/nytimes/c=1.25_p=2.0/
+
+Load data and query: 0.131370 Seconds
+
+Parameters of QALSH:
+n     = 290000
+d     = 256
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 674
+l     = 477
+
+Indexing Time = 57.181480 Seconds
+Estimated Mem = 1491.899658 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		-nan		226.128		99.269997		0.440589
+
+alg    = 2
+n      = 136736
+qn     = 100
+d      = 300
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/yahoomusic
+folder = ../results/yahoomusic/c=1.25_p=2.0/
+
+Load data and query: 0.078504 Seconds
+
+Parameters of QALSH:
+n     = 136736
+d     = 300
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 630
+l     = 445
+
+Indexing Time = 27.958166 Seconds
+Estimated Mem = 657.945190 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+100		1.0012		76.306		93.410004		0.920705
+
