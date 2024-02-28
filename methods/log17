@@ -1,0 +1,30 @@
+alg    = 2
+n      = 1192514
+qn     = 200
+d      = 100
+p      = 2.0
+zeta   = 0.0
+c      = 1.2
+dtype  = float32
+prefix = /data/kabir/similarity-search/dataset/glove
+folder = ../results/glove/c=1.25_p=2.0/
+
+Load data and query: 0.304237 Seconds
+
+Parameters of QALSH:
+n     = 1192514
+d     = 100
+p     = 2.0
+zeta  = 0.0
+c     = 1.2
+w     = 2.226824
+m     = 755
+l     = 536
+
+Indexing Time = 164.590256 Seconds
+Estimated Mem = 6869.398926 MB
+
+k-NN Search by QALSH:
+Top-k		Ratio		Time (ms)	Recall (%)	MAP (%)
+20		1.0019		1072.930		86.300003		0.825160
+
