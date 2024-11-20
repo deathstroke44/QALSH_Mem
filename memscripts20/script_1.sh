@@ -23,9 +23,9 @@ log=log1
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+../qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
-/usr/bin/time -v /qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
+/usr/bin/time -v ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log} &> ../logs/${dname}-${log}.txt
 
 
@@ -39,9 +39,9 @@ log=log2
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+../qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
-/usr/bin/time -v /qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
+/usr/bin/time -v ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log} &> ../logs/${dname}-${log}.txt
 
 
@@ -56,9 +56,9 @@ log=log3
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+../qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
-/usr/bin/time -v /qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
+/usr/bin/time -v ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log} &> ../logs/${dname}-${log}.txt
 
 
@@ -73,9 +73,9 @@ log=log4
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+../qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
-/usr/bin/time -v /qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
+/usr/bin/time -v ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log} &> ../logs/${dname}-${log}.txt
 
 
@@ -89,7 +89,7 @@ log=log5
 
 of=../results/${dname}/c=${c}_p=${p}/
 
-./qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
+../qalsh -alg 0 -n ${n} -qn ${qn} -d ${d} -p ${p} -dt ${dtype} -pf ${pf}
 
-/usr/bin/time -v /qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
+/usr/bin/time -v ./qalsh -alg 2 -n ${n} -qn ${qn} -d ${d} -p ${p} -z ${z} -c ${c} \
 -dt ${dtype} -pf ${pf} -of ${of} -dname ${log} &> ../logs/${dname}-${log}.txt
