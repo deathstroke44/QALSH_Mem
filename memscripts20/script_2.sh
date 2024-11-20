@@ -6,10 +6,10 @@
 cd ../methods/
 
 
-dname=ukbench
-n=1097907
+dname=deep
+n=1000000
 qn=200
-d=128
+d=256
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
 

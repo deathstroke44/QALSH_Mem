@@ -6,10 +6,10 @@
 cd ../methods/
 
 
-dname=ukbench
-n=1097907
+dname=imageNet
+n=2340373
 qn=200
-d=128
+d=150
 pf=/data/kabir/similarity-search/dataset/${dname}
 df=/data/kabir/similarity-search/dataset/${dname}/
 
